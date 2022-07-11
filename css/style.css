@@ -1,0 +1,28 @@
+.jumbotron h1 {
+    color:white;
+}
+
+.jumbotron p {
+    color:white;
+}
+
+.white-text  {
+    color: white;
+}
+
+.col-md-12.jumbotron.text-center.white-text {
+    color: white;
+}
+
+.aliceblue-text p {
+    color: aliceblue;
+}
+
+.col-md-12 p {
+    color: aliceblue;
+}
+
+body {
+    color: white;
+    background-color: darkgray;
+}
