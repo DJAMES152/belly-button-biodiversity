@@ -1,17 +1,19 @@
+.jumbotron {
+    margin-left:18px;
+}
+
 .jumbotron h1 {
-    color:white;
+    color:aliceblue;
+    
+    
 }
 
 .jumbotron p {
-    color:white;
+    color:aliceblue
 }
 
-.white-text  {
-    color: white;
-}
-
-.col-md-12.jumbotron.text-center.white-text {
-    color: white;
+.white-text h2 {
+    color: aliceblue;
 }
 
 .aliceblue-text p {
@@ -22,7 +24,10 @@
     color: aliceblue;
 }
 
+.footer {
+    color:white;
+}
+
 body {
-    color: white;
-    background-color: darkgray;
+    background-color: black;
 }
