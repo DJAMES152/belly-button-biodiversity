@@ -1,5 +1,5 @@
 function init() {
-  d3.json("Data/samples.json").then(function (jsonData) {
+  d3.json("data/samples.json").then(function (jsonData) {
     let data = jsonData;
   
 
@@ -18,7 +18,7 @@ function init() {
 }
 
 function datapull(selectedID) {
-  d3.json("Data/samples.json").then(function (jsonData) {
+  d3.json("data/samples.json").then(function (jsonData) {
     console.log("1. pull data");
     let data = jsonData;
 
