@@ -87,4 +87,50 @@ function init() {
       type: "bar",
     };
   
-   
+    let plotdata = [trace];
+  
+    let layout = {
+      hoverinfo: otu_labels,
+      title: {
+        text: "Top 10 Bacteria OTU Species Found <br> in Subject's Belly-Button",
+        font: {
+          size: 20,
+          xanchor: "left",
+          yanchor: "top",
+        },
+      },
+      autosize: false,
+      width: 550,
+      height: 465,
+      margin: {
+        l: 50,
+        r: 50,
+        b: 100,
+        t: 100,
+        pad: 4,
+      },
+      yaxis: {
+        autorange: "reversed",
+        automargin: true,
+      },
+      xaxis: {
+        title: {
+          text: "Num. Microbial Species",
+          font: {
+            family: "Overpass, Open Sans, Raleway",
+            size: 11,
+          },
+        },
+      },
+    };
+  
+    let config = {
+      responsive: true,
+    };
+  
+    Plotly.newPlot("bar", plotdata, layout, config);
+  }
+  
+  //*******************************************//
+  
+  
